@@ -25,7 +25,7 @@ prime.o: prime.c prime.h
  
 .PHONY: clean
 clean:
-	rm -f *.o a.out core myprogram
+	rm -f *.o *~ a.out core myprogram
 
 .PHONY: all
 all: clean myprogram
